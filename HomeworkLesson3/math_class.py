@@ -1,4 +1,3 @@
-
 class1 = int(input("Enter the number of students in the first class: "))
 class2 = int(input("Enter the number of students in the second class: "))
 class3 = int(input("Enter the number of students in the third class: "))
