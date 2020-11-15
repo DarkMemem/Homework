@@ -18,4 +18,3 @@ if Desk_in_third_class % 1 == 0.5:
 print("First class requires ", int(Desk_in_first_class), " desk")
 print("Second class requires ", int(Desk_in_second_class), " desk")
 print("Third class requires ", int(Desk_in_third_class), " desk")
-
