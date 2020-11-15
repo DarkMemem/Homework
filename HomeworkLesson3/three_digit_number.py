@@ -1,4 +1,5 @@
 #first option
+
 while True:
     number = int(input("Please enter three-digit number: "))
 
@@ -11,8 +12,9 @@ while True:
         print("Repeat please")
 
 #second option
-dir1 = number % 10
-dir2 = number // 10 % 10
-dir3 = number // 100
-print("Yor number:", dir1, dir2, dir3, sep="")
+
+dig1 = number % 10
+dig2 = number // 10 % 10
+dig3 = number // 100
+print("Yor number:", dig1 * 100 + dig2 * 10 + dig3, sep="")
 
